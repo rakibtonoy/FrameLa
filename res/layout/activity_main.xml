@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/de" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/se"
+        android:layout_height="match_parent" >
+    </LinearLayout>
+</LinearLayout>
+
+<ImageView
+    android:id="@+id/imageProfile"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="end"
+    android:layout_marginTop="100dp"
+    android:src="@drawable/ic_launcher" />
+
+</FrameLayout>
